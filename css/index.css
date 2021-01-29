@@ -222,28 +222,48 @@ div.banner_down img{
   margin: 0 auto;
 }
 div.banner_down div.content{
-  position: relative;
-  top: 170px;
-  left: 700px;
+  position: absolute;
+  top: 5%;
+  left: 10%;
   display: inline-block;
-}
-
-div.content p.about_us{
-  color: red;
-  font-size: 20px;
 }
 
 div.content p.slog1{
-  color: red;
-  font-size: 20px;
+  color: white;
+  font-size: 1rem;
   display: inline-block;
+  margin: 0;
 }
 
-div.content p.slog3 a{
+div.content p.slog1 a{
   text-decoration: none;
   font-size: 14px;
 }
 
+@media screen and(max-width:400px){
+  div.content p.slog1{
+    font-size: 0.8rem;
+  }
+  div.content p.slog1 a{
+    font-size: 12px;
+  }
+}
+
+.banner_down{ 
+    position: relative; 
+    
+} 
+.banner_down > img{ 
+    top:0; 
+    left:0; 
+} 
+.banner_down > img:first-child{ 
+    z-index: 2; 
+    max-width: 25%;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+} 
 /* ==============最新消息及門市資訊============ */
 div.information{
   font-size: 0;

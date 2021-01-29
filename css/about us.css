@@ -29,12 +29,14 @@ div.about_us div.content{
   text-align: center;
 }
 div.about_us div.content p.skill
-{font-size: 35px;
+{font-size: 30px;
+margin: 0;
 }
 
 div.about_us div p{
   color: white;
   font-size: 18px;
+  margin: 0;
 }
 
 h2{
@@ -74,13 +76,9 @@ div.our_description div.photo_1{
   animation-name: move;
   animation-duration: 3s;
 }
-/* @keyframes move{
-  from{right:-30%;}
-  to{right: 5%;}
-  }
 div.our_description div.photo_1 img{
-  max-width: 80%;
-} */
+  max-width:80%
+}
 /* ==================rwd======================= */
 
 

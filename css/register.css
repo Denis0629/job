@@ -45,8 +45,9 @@ h2{
   }
 
   form{
-    width:300px;
+    max-width:100%;
     display: inline-block;
+    margin-bottom: 5%;
   }
 
   div.form_list form button{
@@ -69,10 +70,10 @@ h2{
     display: inline-block;
   }
 
-  div.sn_show h2.sn_photo{
+  /* div.sn_show h2.sn_photo{
     display: inline-block;
 
-  }
+  } */
 
 h3.sn_photo{
   border: 1px solid black;
@@ -80,6 +81,8 @@ h3.sn_photo{
   text-align: center;
   background: red;
   color: white;
+  margin: 0;
 }
-
-/* ========RWD================== */
+div.sn_show img{
+  max-width: 100%;
+}

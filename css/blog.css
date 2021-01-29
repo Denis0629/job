@@ -51,7 +51,7 @@ div.poz_photo{
   display: inline-block;
   max-width: 100%;
   margin-top: 20px;
-  margin-left:4%;
+  /* margin-left:4%; */
   height: 300px;
 }
 div.poz_photo img{
@@ -94,7 +94,7 @@ div.sgy_content p.sgy_1 a {
 div.sgy_photo{
   max-width: 100%;
   display: inline-block;
-  margin-left: 60px;
+  /* margin-left: 60px; */
 }
 div.sgy_photo img{
   max-width: 90%;
@@ -134,7 +134,7 @@ div.xdx_content p.xdx_1 a {
 div.xdx_photo{
   max-width:100%;
   display: inline-block;
-  margin-left: 60px;
+  /* margin-left: 60px; */
 }
 div.xdx_photo img{
   max-width: 90%;
@@ -174,7 +174,7 @@ div.xoz_content p.xoz_1 a {
 div.xoz_photo{
   max-width:100%;
   display: inline-block;
-  margin-left: 60px;
+  /* margin-left: 60px; */
 }
 div.xoz_photo img{
   max-width: 90%;
@@ -215,7 +215,7 @@ div.yoy_content p.yoy_1 a {
 div.yoy_photo{
   max-width: 100%;
   display: inline-block;
-  margin-left: 60px;
+  /* margin-left: 60px; */
 }
 div.yoy_photo img{
   max-width: 90%;

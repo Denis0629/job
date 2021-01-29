@@ -9,18 +9,14 @@ body{
 *{
   box-sizing: border-box;
 }
-div.speaker{
-  /* background-image: url("../images/42.png");
-  background-repeat: no-repeat; */
-  max-width:100%;
-  margin-right: auto;
-  margin-left: auto;
-  font-size: 0px;
-  border-top: 4px solid gray;
-}
 
-div.speaker img{
+/* div.speaker img{
   max-width: 100%;
+} */
+
+video{
+  margin: 0 auto;
+  border-top: 4px solid gray;
 }
 /* ==============篩選欄============ */
 div.product_filter{
@@ -62,11 +58,6 @@ div.type_list p.type_1{
   font-size: 20px;
 }
 
-div.product_filter div.filter_form{
-  /* display: flex;
-  align-items: flex-start; */
-  
-}
 
 div.function_list{
   display: inline-block;
