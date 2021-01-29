@@ -124,6 +124,7 @@ div.banner_middle{
   margin-left: auto;
   padding-top: 100px;
   max-height: 700px;
+  position: relative;
 } 
 div.banner_middle img{
   max-width: 100%;
@@ -132,8 +133,8 @@ div.banner_middle img{
 
 div.banner_middle div.content{
   /* border: 1px solid white; */
-  position: relative;
-  top: -200px;
+  position: absolute;
+  top: 200px;
   left: 10%;
 }
 div.banner_middle div.content p.xdx_100 span{
@@ -148,20 +149,25 @@ div.banner_middle div.content p.slog_middle{
 }
 @media screen and (max-width:600px){
   div.banner_middle div.content p.xdx_100 span{
-    font-size: 25px;
+    font-size: 20px;
   }
   iv.banner_middle div.content p.slog_middle{
     font-size: 16px;
   }
 }
+
+@media screen and (max-width:360px){
+  div.banner_middle div.content{
+    position: absolute;
+    top:80px;
+  }
+}
+
 @media screen and (max-width:321px){
   div.banner_middle div.content p.xdx_100 span{
-    font-size: 22px;
+    font-size: 16px;
   }
-  div.banner_middle div.content{
-    position: relative;
-    top: -180px;
-  }
+  
 }
 h1.popular_2{
   text-align: center;
