@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Register</title>
   <link rel="stylesheet" href="./css/register.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <input type="checkbox" name="" id="menu_control">
@@ -85,7 +86,7 @@
       
       <button type="submit">註冊產品</button>
     </form>
-    <div class="sn_show">
+    <div class="sn_show" data-aos="fade-down" data-aos-easing="linear" data-aos-durtion="1000">
       <h3 class="sn_photo">產品序號說明</h3>
       <img src="./images/20.png" alt="">
     </div>
@@ -101,5 +102,9 @@
         <div class="fb_fb"><img src="./images/facebook.png" alt=""></div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

@@ -59,6 +59,8 @@ h2{
     margin-top: 35px;
     font-size: 18px;
     border-radius: 10px;
+    border: none;
+    outline: none;
   }
   div.form_list form button:hover{
     background-color: #a7fae6;

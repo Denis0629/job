@@ -22,7 +22,6 @@ body{
   animation: slider 8s 10;
 }
 #sliderBoard li{
-  /* max-width: 100%; */
   width: 20%;
   float: left;
   overflow: hidden;
@@ -44,7 +43,7 @@ div.main_container{
   /* border: 1px solid red; */
   margin: 0 auto;
 }
-div.main_container h1.popular_1{
+div.main_container h2.popular_1{
   max-width: 100%;
   margin: 30px auto;
   text-align: center;
@@ -110,12 +109,11 @@ div.product_line{
     max-width: 65%;
   }
 }
-
-/* ===============音響========== */
-div.main_container h1.popular_1{
+div.main_container h2.popular_1{
   text-align: center;
 }
 
+/* ===============音響========== */
 div.banner_middle{
   max-width:100%;
   /* border: 1px solid red; */
@@ -169,7 +167,7 @@ div.banner_middle div.content p.slog_middle{
   }
   
 }
-h1.popular_2{
+h2.popular_2{
   text-align: center;
   /* border: 1px solid black; */
   max-width: 100%;
