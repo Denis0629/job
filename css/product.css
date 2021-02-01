@@ -83,14 +83,15 @@ div.color_list p.color_list{
 button{
   color: white;
   background-color: black;
-  /* position: relative;
-  top: -40px;
-  left: 1130px; */
   border-radius: 10px;
   margin-left: 90%;
   margin-bottom: 3%;
   outline: none;
   border: none;
+}
+button:hover{
+  background-color: #a7fae6;
+  color: black;
 }
 /* ================產品================== */
 h2{
